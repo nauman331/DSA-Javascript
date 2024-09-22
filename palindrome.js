@@ -1,5 +1,5 @@
 function palindrome(str) {
-    let cleanedStr = str.toLowerCase().replace(/[^a-z0-9]/g, '');
+let cleanedStr = str.toLowerCase().replace(/[^a-z0-9]/g, '');
 
 
 const array = cleanedStr.split('');
